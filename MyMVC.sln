@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMVC", "MyMVC\MyMVC.csproj", "{49CA3BE8-7031-46A3-9F29-C3988E423A88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A229BDA5-2CBA-4046-B570-6CA5320C3D9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMC.Business", "MyMC.Business\MyMC.Business.csproj", "{46D472BA-3E55-4A29-8159-E314F01B3BDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMVC.Data", "MyMVC.Data\MyMVC.Data.csproj", "{3B3A2B59-E3B3-459E-ABF2-11CC9E340D5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B3A2B59-E3B3-459E-ABF2-11CC9E340D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B3A2B59-E3B3-459E-ABF2-11CC9E340D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B3A2B59-E3B3-459E-ABF2-11CC9E340D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B3A2B59-E3B3-459E-ABF2-11CC9E340D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46D472BA-3E55-4A29-8159-E314F01B3BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D472BA-3E55-4A29-8159-E314F01B3BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D472BA-3E55-4A29-8159-E314F01B3BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D472BA-3E55-4A29-8159-E314F01B3BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49CA3BE8-7031-46A3-9F29-C3988E423A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CA3BE8-7031-46A3-9F29-C3988E423A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CA3BE8-7031-46A3-9F29-C3988E423A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CA3BE8-7031-46A3-9F29-C3988E423A88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46D472BA-3E55-4A29-8159-E314F01B3BDF} = {A229BDA5-2CBA-4046-B570-6CA5320C3D9C}
+		{3B3A2B59-E3B3-459E-ABF2-11CC9E340D5A} = {A229BDA5-2CBA-4046-B570-6CA5320C3D9C}
+	EndGlobalSection
+EndGlobal
