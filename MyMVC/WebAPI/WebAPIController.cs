@@ -14,7 +14,7 @@ namespace MyMVC.Controllers
 		public dynamic GetString(string id)
 		{
 			dynamic result = new {
-				ResponseMessage = string.Format("{0} {1}",id,"Mama"),
+				ResponseMessage = string.Format("{0} {1}",id,"Mama Papa"),
 				StatusCode = true
 			};
 			return result;
